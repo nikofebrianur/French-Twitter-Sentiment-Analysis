@@ -17,6 +17,8 @@ conda activate example-env
 ``
 
 - Install library dan menjalankan Jupyter notebook di localhost
+
+
 ``sh
 pip install jupyter scikit-learn tensorflow tfx==1.11.0 flask joblib
 ``
