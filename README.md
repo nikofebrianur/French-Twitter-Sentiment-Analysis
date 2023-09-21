@@ -3,7 +3,7 @@ Nama: Niko Febrianur
 
 Username dicoding: nikofebrianur
 
-![twiter sentiment](https://github.com/nikofebrianur/French-Twitter-Sentiment-Analysis/assets/42314371/05dde999-fea2-4af0-95f1-172b0127e9fb)
+![twiter sentiment](https://github.com/nikofebrianur/French-Twitter-Sentiment-Analysis/assets/42314371/13d5370b-7a19-4473-97c8-aab7710560d0)
 
 | | Deskripsi |
 | ----------- | ----------- |
