@@ -15,15 +15,20 @@ Username dicoding: nikofebrianur
 | Metrik evaluasi | Dalam mengevaluasi kinerja model analisis sentimen, kita menggunakan beberapa metrik evaluasi berikut: <br><br> 1. **ExampleCount**: Metrik ini memberikan jumlah total contoh yang digunakan dalam evaluasi, yang mencakup data yang diklasifikasikan dengan benar dan yang salah. <br><br> 2. **AUC (Area Under the Curve)**: AUC adalah metrik yang digunakan untuk mengukur area di bawah kurva Receiver Operating Characteristic (ROC). Ini memberikan gambaran tentang sejauh mana model dapat membedakan antara kelas positif dan negatif. <br><br> 3. **FalsePositives**: Ini adalah jumlah kasus di mana model secara salah mengklasifikasikan contoh yang sebenarnya negatif sebagai positif. <br><br> 4. **TruePositives**: Ini adalah jumlah kasus di mana model dengan benar mengklasifikasikan contoh yang sebenarnya positif sebagai positif. <br><br> 5. **FalseNegatives**: Ini adalah jumlah kasus di mana model secara salah mengklasifikasikan contoh yang sebenarnya positif sebagai negatif. <br><br> 6. **TrueNegatives**: Ini adalah jumlah kasus di mana model dengan benar mengklasifikasikan contoh yang sebenarnya negatif sebagai negatif. <br><br> 7. **BinaryAccuracy**: Metrik ini mengukur akurasi prediksi model dalam konteks klasifikasi biner, yaitu sejauh mana model benar-benar memprediksi kelas dengan benar. <br><br> Metrik-metrik ini digunakan untuk memberikan pemahaman yang komprehensif tentang seberapa baik model dapat melakukan analisis sentimen terhadap teks tweet dalam dataset. Dengan melihat metrik-metrik ini, kita dapat mengevaluasi dan mengoptimalkan kinerja model untuk tujuan analisis sentimen. |
 | Performa model | (sample) Evaluasi model diperoleh yaitu AUC sebesar 82%, kemudian example_count 575, dengan BinaryAccuracy 75%, dan loss sebesar 1.364. Untuk False Negatives 68, False Positive 75, True Negative 201 dan True Positive 231. Model yang telah dibuat dapat dilakukan peningkatan performa, karena model belum cukup baik karena BinaryAccuracy masih dibawah 80% |
 
-## Untuk menjalankan proyek ML pipeline, lakukan perintah berikut ini:
+### Untuk menjalankan proyek ML pipeline, lakukan perintah berikut ini:
 -  Membuat environment dan aktifkan
+
 ``sh
 conda create --name example-env python=3.9.15
+``
+``sh
 conda activate example-env
 ``
 
 - Install library dan menjalankan Jupyter notebook di localhost
 ``sh
 pip install jupyter scikit-learn tensorflow tfx==1.11.0 flask joblib
+``
+``
 jupyter-notebook notebook.ipynb
 ``
