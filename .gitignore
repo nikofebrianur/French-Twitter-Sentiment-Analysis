@@ -1,0 +1,5 @@
+data/*
+pipelines/*
+serving_model_dir/*
+.ipynb_checkpoints/*
+__pycache__/*
